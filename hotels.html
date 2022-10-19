@@ -8,43 +8,41 @@
   </head>
 
   <body>
-    <header class="page-header" data-test="header">
-      <div class="container ">
+    <header class="page-header">
+      <div class="container navigation-container">
         <nav class="navigation">
           <a class="navigation-logo" href="index.html">
-            <img class="footer-contacts-logo" src="images/header/logo-sedona.svg" width="140" height="70"
+            <img class="sedona-logo" src="images/header/logo-sedona.svg" width="140" height="70"
               alt="Логотип сайта Седоны.">
           </a>
           <ul class="navigation-list">
             <li class="navigation-item">
-              <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+              <a class="navigation-link" href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="about.html">О седоне</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="hotels.html">Гостиницы</a>
+              <a class="navigation-link navigation-link-current" href="hotels.html">Гостиницы</a>
             </li>
           </ul>
         </nav>
         <ul class="page-list">
           <li class="page-item">
-            <button class="button-search" type="button">Поиск</button>
+            <button class="button-search visually-hidden" type="button">Поиск</button>
           </li>
           <li class="page-item">
-            <a class="navigation-link" href="#">
+            <a class="page-link" href="#">
               <span class="visually-hidden">Избранное</span>
             </a>
           </li>
           <li class="page-item">
-            <a class="page-link-hotels" href="#">
-              <span class="visually-hidden">Хочу сюда!</span>
-            </a>
+            <a class="page-link-hotels" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </div>
     </header>
-    <main class="main-inner page-container" data-test="main">
+    <main class="main-inner page-container">
       <div class="container">
         <div class="background-filter-conteiner">
           <header class="inner-header">
@@ -60,8 +58,8 @@
               </li>
             </ul>
           </header>
-          <section class="hotels-filter" data-test="filter">
-            <h2 class="visually-hidden" hidden>Список гостиниц с фильтрами</h2>
+          <section class="hotels-filter">
+            <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
             <form class="hotels-filter-form" action="https://echo.htmlacademy.ru/" method="get">
               <fieldset class="hotels-filter-group">
                 <legend class="hotels-filter-title">Инфраструктура</legend>
@@ -117,7 +115,7 @@
         </div>
         <div class="hotels-container">
           <section class="hotel-sort">
-            <h2 class="visually-hidden" hidden>Сортировка</h2>
+            <h2 class="visually-hidden">Сортировка</h2>
             <p class="hotels-result">Найдено гостиниц: 38</p>
             <select class="select-control" aria-label="Сортировка">
               <option value="cheap">Сначала дешевые</option>
@@ -134,7 +132,7 @@
               <span class="visually-hidden">Показать списком</span>
             </a>
           </section>
-          <section class="hotels-variants" data-test="catalog">
+          <section class="hotels-variants">
             <ul class="hotels-list">
               <li class="hotels-card">
                 <a class="hotels-card-link" href="hotels.html">
@@ -187,7 +185,7 @@
             </ul>
             <ul class="pagination">
               <li class="pagination-item">
-                <a class="pagination-link-current">1</a>
+                <a class="pagination-link pagination-link-current">1</a>
               </li>
               <li class="pagination-item">
                 <a class="pagination-link" href="#">2</a>
@@ -207,7 +205,7 @@
             </ul>
           </section>
         </div>
-        <section class="mailing mailing-hotels" data-test="subscribe">
+        <section class="mailing mailing-hotels">
           <h2 class="mailing-title">Подпишитесь на рассылку</h2>
           <p class="mailing-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -219,7 +217,7 @@
         </section>
       </div>
     </main>
-    <footer class="page-footer" data-test="footer">
+    <footer class="page-footer">
       <div class="container footer-container">
         <section class="footer-social">
           <h2 class="visually-hidden">Социальные сети</h2>
