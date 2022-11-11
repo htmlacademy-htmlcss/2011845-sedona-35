@@ -178,6 +178,52 @@
         </div>
       </footer>
     </div>
+    <div class="modal-container modal-container-close">
+      <div class="modal modal-booking">
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <button class="modal-close-button">
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+          <form class="booking-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="form-label" for="in-date">Дата заезда:</label>
+            <input class="date" type="text" id="in-date" name="appointment-date" placeholder="Укажите дату"
+              value="27 апреля 2020">
+            <p class="modal-message error">Мы не можем отправить вас в прошлое.</p>
+            <label class="form-label" for="out-date">Дата выезда:</label>
+            <input class="date" type="text" id="out-date" name="appointment-date" placeholder="Укажите дату"
+              value="1 сентября 2023">
+              <p class="modal-message">На эти даты есть свободные номера. Пока есть.</p>
+            <label class="form-label" for="adult">Взрослые:</label>
+            <div class="input-adult">
+              <button class="adult-min minus"></button>
+              <input class="number" type="number" id="adult" name="adult" value="2">
+              <button class="adult-max plus"></button>
+            </div>
+            <div class="info-child-conteiner">
+              <label class="form-label " for="child">Дети:</label>
+              <span class="tooltip">
+                <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date">
+                  <svg class="info-icon" width="2" height="12" viewBox="0 0 2 12" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h2v2H0V0Zm2 12H0V3h2v9Z" />
+                  </svg> </button>
+                <p class="tooltip-description" role="tooltip" id="tooltip-label-date">Укажите количество
+                  детей, которые
+                  будут с вами, возраст которых от 6 до
+                  18 лет. Дети до 6 лет размещаются бесплатно.</p>
+              </span>
+            </div>
+            <div class="input-child">
+              <button class="child-min minus"></button>
+              <input class="number" type="number" id="child" name="child" value="2">
+              <button class="child-min plus"></button>
+            </div>
+            <a class="button-search-modal button-blue" type="submit">Найти</a>
+          </form>
+        </section>
+      </div>
+    </div>
   </body>
 
 </html>
