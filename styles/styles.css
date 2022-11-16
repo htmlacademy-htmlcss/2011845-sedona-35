@@ -835,9 +835,6 @@ body {
   display: grid;
   -ms-grid-columns: 247px 88px 242px;
   grid-template-columns: 247px 242px;
-  -webkit-column-gap: 88px;
-  -moz-column-gap: 88px;
-  column-gap: 88px;
   margin-bottom: 48px;
 }
 
@@ -855,8 +852,8 @@ body {
 }
 
 .child-container {
-  -ms-grid-columns: 132px 110px;
-  grid-template-columns: 132px 110px;
+  -ms-grid-columns: 137px 36px 156px;
+  grid-template-columns: 137px 36px 156px;
 }
 
 .input-box {
@@ -938,6 +935,11 @@ body {
 
 /*child*/
 
+.child-label {
+  text-align: end;
+  padding-left: 10px;
+}
+
 .info-icon {
   display: block;
   padding: 7px 12px;
@@ -945,11 +947,6 @@ body {
 }
 
 /*tooltip*/
-
-.tooltip {
-  position: absolute;
-  right: 217px;
-}
 
 .tooltip-toggle {
   display: block;
@@ -969,8 +966,8 @@ body {
 .tooltip-description {
   position: absolute;
   z-index: 3;
-  right: -105px;
-  top: 55px;
+  right: 113px;
+  top: 415px;
   width: 256px;
   background-color: #333333;
   color: #ffffff;
@@ -1023,10 +1020,11 @@ body {
   border: none;
 }
 
+/*
 .modal-container-close {
   display: none;
 }
-
+*/
 /*main-inner*/
 /*filter*/
 
