@@ -123,8 +123,8 @@
           <p class="mailing-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="visually-hidden" for="newsletter-email">Введите Email</label>
-            <input class="email" aria-required placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
-              required>
+            <input class="email" aria-required placeholder="Ваш e-mail" type="email" name="newsletter-email"
+              id="newsletter-email" required>
             <button class="newsletter-button button-blue" type="submit">Подписаться</button>
           </form>
         </section>
@@ -193,15 +193,19 @@
             <span class="visually-hidden">Закрыть.</span>
           </button>
           <form class="booking-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="form-label" for="in-date">Дата заезда:</label>
-            <input class="date" required type="text" id="in-date" name="appointment-date" placeholder="Укажите дату"
-              value="27 апреля 2020">
+            <div class="date-container">
+              <label class="form-label" for="in-date">Дата заезда:</label>
+              <input class="date" required type="text" id="in-date" name="appointment-date" placeholder="Укажите дату"
+                value="27 апреля 2020">
+            </div>
             <p class="modal-message error">Мы не можем отправить вас в прошлое.</p>
-            <label class="form-label" for="out-date">Дата выезда:</label>
-            <input class="date" required type="text" id="out-date" name="appointment-date" placeholder="Укажите дату"
-              value="1 сентября 2023">
+            <div class="date-container">
+              <label class="form-label" for="out-date">Дата выезда:</label>
+              <input class="date" required type="text" id="out-date" name="appointment-date" placeholder="Укажите дату"
+                value="1 сентября 2023">
+            </div>
             <p class="modal-message">На эти даты есть свободные номера. Пока есть.</p>
-            <div class="numder-box">
+            <div class="number-box">
               <div class="adult-container">
                 <label class="form-label" for="adult">Взрослые:</label>
                 <span class="input-box">
