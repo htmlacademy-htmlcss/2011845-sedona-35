@@ -973,7 +973,7 @@ img {
   position: absolute;
   z-index: 3;
   right: 113px;
-  top: 415px;
+  top: 408px;
   width: 256px;
   background-color: #333333;
   color: #ffffff;
@@ -988,7 +988,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 10px;
-  display: none;
+  /*display: none;*/
 }
 
 .tooltip-description:after {
