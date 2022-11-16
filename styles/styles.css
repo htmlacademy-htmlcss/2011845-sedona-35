@@ -314,9 +314,9 @@ img {
 }
 
 .promo {
+  background-color: #3f5e72;
   background-image: url(../images/promo/divider.svg),
     url(../images/promo/index-background.jpg);
-  background-color: #82b3d3;
   background-position: bottom, 0;
   background-repeat: no-repeat;
   background-size: 100% 57px, cover;
@@ -528,13 +528,14 @@ img {
 /*mailing*/
 
 .mailing {
-  text-align: center;
+  background-color: #3f5e72;
   background-image: url(../images/mailing/mailing-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  background-color: #82b3d3;
   padding: 96px 258px 104px 258px;
+  text-align: center;
+
 }
 
 .mailing-hotels {
@@ -1035,11 +1036,11 @@ img {
 /*filter*/
 
 .background-filter-conteiner {
+  background-color: #3f5e72;
   background-image: url(../images/filter-hotels/background-filter.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  background-color: #82b3d3;
   padding: 70px;
   padding-top: 35px;
   margin-bottom: 50px;
