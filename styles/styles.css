@@ -361,6 +361,12 @@ img {
   list-style-type: none;
 }
 
+.advantages-city,
+.advantages-bridge {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
 .advantages-city {
   grid-column: 1 / -1;
   background-image: url(../images/advantages/view-city.jpg);
@@ -372,12 +378,6 @@ img {
   grid-column: 1 / -1;
   background-image: url(../images/advantages/view-canyon.jpg);
   background-repeat: no-repeat;
-}
-
-.advantages-city,
-.advantages-bridge {
-  color: #ffffff;
-  background-color: #82b3d3;
 }
 
 .advantages-city {
