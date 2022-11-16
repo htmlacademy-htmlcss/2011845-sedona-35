@@ -43,6 +43,12 @@ body {
   background-color: #f2f2f2;
 }
 
+img {
+  max-width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
